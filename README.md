@@ -10,14 +10,21 @@ $ docker run -p 8080:80 udf
 테스트: http://localhost/symbols?symbol=BTCUSDT
 
 ## 2. mobile.html에 url 설정.
+
+```
 datafeed: new Datafeeds.UDFCompatibleDatafeed("http://localhost")
 symbol: 'BTCUSDT',
 interval: '1h',
+```
 
 (옵션)
+
 test로 확인해보려면 
+
+```
 $ npm install -g http-server
 $ http-server -p 3000
+```
 
 http://localhost:3000/mobile.html 에 접근해본다.
 
