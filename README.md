@@ -15,22 +15,22 @@ https://github.com/bergusman/tradingview-udf-binance-node
 
 ## 2. mobile.html에 url 설정.
 
+mobile.html 에는 이미 설정되어있다.
+
 ```
 datafeed: new Datafeeds.UDFCompatibleDatafeed("http://13.124.177.37:8080")
 symbol: 'BTCUSDT',
 interval: '1h',
 ```
 
-(옵션)
-
-로컬에 http 서버를 띄워서 확인해보려면 
+로컬에 http 서버를 띄워서 확인해본다.
 
 ```
 $ npm install -g http-server
 $ http-server -p 3000
 ```
 
-http://localhost:3000/mobile.html 에 접근해본다.
+http://localhost:3000/mobile.html 에 접근하면 차트를 확인할수 있다.
 
 
 
