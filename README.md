@@ -1,8 +1,8 @@
 # futuremaker 비주얼라이저
 
-## 1. Binance UDF 준비
+## 1. Binance UDF 확인
 
-이미 만들어둔 API를 사용한다.  
+aws 에 이미 만들어둔 API를 사용한다.  
 
 http://13.124.177.37:8080
 
