@@ -1,0 +1,7 @@
+{
+    "port": 3000,
+    "tradeDir": "C:\\Projects\\visu\\futuremaker-json",
+    "statusDir": "C:\\Projects\\visu\\futuremaker-json",
+    "tradePrefix": "trade-",
+    "statusPrefix": "status-"
+}

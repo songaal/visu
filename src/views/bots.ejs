@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>futuremaker</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	</head>
+
+	<body>
+        
+		<h1>Bot List</h1>
+		<ul>
+		<% for ( let i = 0; i < bots.length; i++ ) { %>
+			<li> 
+                <a href="/bots/<%= bots[i] %>">
+                    <%= bots[i] %> 
+                </a>
+            </li>
+		<% } %>
+		</ul>
+
+	</body>
+</html>

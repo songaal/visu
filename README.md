@@ -47,3 +47,36 @@ futuremaker-json/trade-EveryGo.json 을 사용.
 
 - 차트는 기본 1H을 보여주고 차트에서 변경할수 있게 한다.
 - 인디케이터는 나중에 고려한다.
+
+
+## 추가
+futuremaker에서 생성된 status, trade json파일 시각화
+
+## 사용방법
+
+모듈설치
+
+```
+npm install 
+```
+
+config.json에서 status, trade 디렉토리 경로 설정
+
+```
+"tradeDir": "C:\\Projects\\visu\\futuremaker-json",
+"statusDir": "C:\\Projects\\visu\\futuremaker-json",
+```
+
+실행
+```
+npm start
+```
+
+제공하는 URI
+
+| URI | 설명 |
+| --- | --- |
+| / | status, trade 파일목록 조회 |
+| /bots | Bot 목록 조회 |
+| /bots/<명청> | bot 화면 ( ex: /bots/EveryGo ) |
+
